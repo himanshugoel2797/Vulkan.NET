@@ -13,6 +13,7 @@ namespace Vulkan.NET
             VersionMaxEnum = 2147483647,
             VersionRangeSize = -1,
         }
+
         public enum Result
         {
             Success = 0,
@@ -43,6 +44,7 @@ namespace Vulkan.NET
             ErrorOutOfDeviceMemory = -2,
             ErrorOutOfHostMemory = -1,
         }
+
         public enum StructureType
         {
             TypeApplicationInfo = 0,
@@ -111,6 +113,7 @@ namespace Vulkan.NET
             TypeDebugReportCreateInfoEXT = 1000011000,
             TypeMaxEnum = 2147483647,
         }
+
         public enum SystemAllocationScope
         {
             ScopeCommand = 0,
@@ -123,6 +126,7 @@ namespace Vulkan.NET
             ScopeEndRange = 4,
             ScopeMaxEnum = 2147483647,
         }
+
         public enum InternalAllocationType
         {
             TypeEndRange = 0,
@@ -131,6 +135,7 @@ namespace Vulkan.NET
             TypeMaxEnum = 2147483647,
             TypeRangeSize = -1,
         }
+
         public enum Format
         {
             FormatBeginRange = 0,
@@ -323,6 +328,7 @@ namespace Vulkan.NET
             FormatEndRange = 184,
             FormatMaxEnum = 2147483647,
         }
+
         public enum ImageType
         {
             TypeBeginRange = 0,
@@ -333,6 +339,7 @@ namespace Vulkan.NET
             Type3d = 2,
             TypeMaxEnum = 2147483647,
         }
+
         public enum ImageTiling
         {
             TilingBeginRange = 0,
@@ -342,6 +349,7 @@ namespace Vulkan.NET
             TilingLinear = 1,
             TilingMaxEnum = 2147483647,
         }
+
         public enum PhysicalDeviceType
         {
             TypeOther = 0,
@@ -354,6 +362,7 @@ namespace Vulkan.NET
             TypeEndRange = 4,
             TypeMaxEnum = 2147483647,
         }
+
         public enum QueryType
         {
             TypeBeginRange = 0,
@@ -364,6 +373,7 @@ namespace Vulkan.NET
             TypeTimestamp = 2,
             TypeMaxEnum = 2147483647,
         }
+
         public enum SharingMode
         {
             ModeBeginRange = 0,
@@ -373,6 +383,7 @@ namespace Vulkan.NET
             ModeConcurrent = 1,
             ModeMaxEnum = 2147483647,
         }
+
         public enum ImageLayout
         {
             LayoutBeginRange = 0,
@@ -390,6 +401,7 @@ namespace Vulkan.NET
             LayoutPresentSrcKHR = 1000001002,
             LayoutMaxEnum = 2147483647,
         }
+
         public enum ImageViewType
         {
             TypeBeginRange = 0,
@@ -404,6 +416,7 @@ namespace Vulkan.NET
             TypeCubeArray = 6,
             TypeMaxEnum = 2147483647,
         }
+
         public enum ComponentSwizzle
         {
             SwizzleBeginRange = 0,
@@ -418,6 +431,7 @@ namespace Vulkan.NET
             SwizzleA = 6,
             SwizzleMaxEnum = 2147483647,
         }
+
         public enum VertexInputRate
         {
             RateBeginRange = 0,
@@ -427,6 +441,7 @@ namespace Vulkan.NET
             RateInstance = 1,
             RateMaxEnum = 2147483647,
         }
+
         public enum PrimitiveTopology
         {
             TopologyBeginRange = 0,
@@ -445,6 +460,7 @@ namespace Vulkan.NET
             TopologyPatchList = 10,
             TopologyMaxEnum = 2147483647,
         }
+
         public enum PolygonMode
         {
             ModeBeginRange = 0,
@@ -455,6 +471,7 @@ namespace Vulkan.NET
             ModePoint = 2,
             ModeMaxEnum = 2147483647,
         }
+
         public enum FrontFace
         {
             FaceBeginRange = 0,
@@ -464,6 +481,7 @@ namespace Vulkan.NET
             FaceClockwise = 1,
             FaceMaxEnum = 2147483647,
         }
+
         public enum CompareOp
         {
             OpBeginRange = 0,
@@ -479,6 +497,7 @@ namespace Vulkan.NET
             OpAlways = 7,
             OpMaxEnum = 2147483647,
         }
+
         public enum StencilOp
         {
             OpBeginRange = 0,
@@ -494,6 +513,7 @@ namespace Vulkan.NET
             OpDecrementAndWrap = 7,
             OpMaxEnum = 2147483647,
         }
+
         public enum LogicOp
         {
             OpClear = 0,
@@ -517,6 +537,7 @@ namespace Vulkan.NET
             OpEndRange = 15,
             OpMaxEnum = 2147483647,
         }
+
         public enum BlendFactor
         {
             FactorZero = 0,
@@ -543,6 +564,7 @@ namespace Vulkan.NET
             FactorOneMinusSrc1Alpha = 18,
             FactorMaxEnum = 2147483647,
         }
+
         public enum BlendOp
         {
             OpAdd = 0,
@@ -555,6 +577,7 @@ namespace Vulkan.NET
             OpEndRange = 4,
             OpMaxEnum = 2147483647,
         }
+
         public enum DynamicState
         {
             StateBeginRange = 0,
@@ -571,6 +594,7 @@ namespace Vulkan.NET
             StateStencilReference = 8,
             StateMaxEnum = 2147483647,
         }
+
         public enum Filter
         {
             FilterBeginRange = 0,
@@ -580,6 +604,7 @@ namespace Vulkan.NET
             FilterLinear = 1,
             FilterMaxEnum = 2147483647,
         }
+
         public enum SamplerMipmapMode
         {
             ModeBeginRange = 0,
@@ -589,6 +614,7 @@ namespace Vulkan.NET
             ModeLinear = 1,
             ModeMaxEnum = 2147483647,
         }
+
         public enum SamplerAddressMode
         {
             ModeRepeat = 0,
@@ -601,6 +627,7 @@ namespace Vulkan.NET
             ModeEndRange = 4,
             ModeMaxEnum = 2147483647,
         }
+
         public enum BorderColor
         {
             ColorBeginRange = 0,
@@ -614,6 +641,7 @@ namespace Vulkan.NET
             ColorIntOpaqueWhite = 5,
             ColorMaxEnum = 2147483647,
         }
+
         public enum DescriptorType
         {
             TypeBeginRange = 0,
@@ -632,6 +660,7 @@ namespace Vulkan.NET
             TypeInputAttachment = 10,
             TypeMaxEnum = 2147483647,
         }
+
         public enum AttachmentLoadOp
         {
             OpBeginRange = 0,
@@ -642,6 +671,7 @@ namespace Vulkan.NET
             OpDontCare = 2,
             OpMaxEnum = 2147483647,
         }
+
         public enum AttachmentStoreOp
         {
             OpBeginRange = 0,
@@ -651,6 +681,7 @@ namespace Vulkan.NET
             OpDontCare = 1,
             OpMaxEnum = 2147483647,
         }
+
         public enum PipelineBindPoint
         {
             PointBeginRange = 0,
@@ -660,6 +691,7 @@ namespace Vulkan.NET
             PointCompute = 1,
             PointMaxEnum = 2147483647,
         }
+
         public enum CommandBufferLevel
         {
             LevelBeginRange = 0,
@@ -669,6 +701,7 @@ namespace Vulkan.NET
             LevelSecondary = 1,
             LevelMaxEnum = 2147483647,
         }
+
         public enum IndexType
         {
             TypeBeginRange = 0,
@@ -678,6 +711,7 @@ namespace Vulkan.NET
             TypeUint32 = 1,
             TypeMaxEnum = 2147483647,
         }
+
         public enum SubpassContents
         {
             ContentsBeginRange = 0,
@@ -687,6 +721,7 @@ namespace Vulkan.NET
             ContentsSecondaryCommandBuffers = 1,
             ContentsMaxEnum = 2147483647,
         }
+
         public enum FormatFeatureFlagBits
         {
             SampledImageBit = 1,
@@ -703,6 +738,7 @@ namespace Vulkan.NET
             BlitDstBit = 2048,
             SampledImageFilterLinearBit = 4096,
         }
+
         public enum ImageUsageFlagBits
         {
             TransferSrcBit = 1,
@@ -714,6 +750,7 @@ namespace Vulkan.NET
             TransientAttachmentBit = 64,
             InputAttachmentBit = 128,
         }
+
         public enum ImageCreateFlagBits
         {
             SparseBindingBit = 1,
@@ -722,6 +759,7 @@ namespace Vulkan.NET
             MutableFormatBit = 8,
             CubeCompatibleBit = 16,
         }
+
         public enum SampleCountFlagBits
         {
             _1Bit = 1,
@@ -732,6 +770,7 @@ namespace Vulkan.NET
             _32Bit = 32,
             _64Bit = 64,
         }
+
         public enum QueueFlagBits
         {
             GraphicsBit = 1,
@@ -739,6 +778,7 @@ namespace Vulkan.NET
             TransferBit = 4,
             SparseBindingBit = 8,
         }
+
         public enum MemoryPropertyFlagBits
         {
             DeviceLocalBit = 1,
@@ -747,10 +787,12 @@ namespace Vulkan.NET
             HostCachedBit = 8,
             LazilyAllocatedBit = 16,
         }
+
         public enum MemoryHeapFlagBits
         {
             DeviceLocalBit = 1,
         }
+
         public enum PipelineStageFlagBits
         {
             TopOfPipeBit = 1,
@@ -771,6 +813,7 @@ namespace Vulkan.NET
             AllGraphicsBit = 32768,
             AllCommandsBit = 65536,
         }
+
         public enum ImageAspectFlagBits
         {
             ColorBit = 1,
@@ -778,20 +821,24 @@ namespace Vulkan.NET
             StencilBit = 4,
             MetadataBit = 8,
         }
+
         public enum SparseImageFormatFlagBits
         {
             SingleMiptailBit = 1,
             AlignedMipSizeBit = 2,
             NonstandardBlockSizeBit = 4,
         }
+
         public enum SparseMemoryBindFlagBits
         {
             MetadataBit = 1,
         }
+
         public enum FenceCreateFlagBits
         {
             SignaledBit = 1,
         }
+
         public enum QueryPipelineStatisticFlagBits
         {
             InputAssemblyVerticesBit = 1,
@@ -806,6 +853,7 @@ namespace Vulkan.NET
             TessellationEvaluationShaderInvocationsBit = 512,
             ComputeShaderInvocationsBit = 1024,
         }
+
         public enum QueryResultFlagBits
         {
             _64Bit = 1,
@@ -813,12 +861,14 @@ namespace Vulkan.NET
             WithAvailabilityBit = 4,
             PartialBit = 8,
         }
+
         public enum BufferCreateFlagBits
         {
             SparseBindingBit = 1,
             SparseResidencyBit = 2,
             SparseAliasedBit = 4,
         }
+
         public enum BufferUsageFlagBits
         {
             TransferSrcBit = 1,
@@ -831,12 +881,14 @@ namespace Vulkan.NET
             VertexBit = 128,
             IndirectBit = 256,
         }
+
         public enum PipelineCreateFlagBits
         {
             DisableOptimizationBit = 1,
             AllowDerivativesBit = 2,
             DerivativeBit = 4,
         }
+
         public enum ShaderStageFlagBits
         {
             VertexBit = 1,
@@ -848,6 +900,7 @@ namespace Vulkan.NET
             ComputeBit = 32,
             All = 2147483647,
         }
+
         public enum CullModeFlagBits
         {
             None = 0,
@@ -855,6 +908,7 @@ namespace Vulkan.NET
             BackBit = 2,
             FrontAndBack = 3,
         }
+
         public enum ColorComponentFlagBits
         {
             RBit = 1,
@@ -862,14 +916,17 @@ namespace Vulkan.NET
             BBit = 4,
             ABit = 8,
         }
+
         public enum DescriptorPoolCreateFlagBits
         {
             FreeSetBit = 1,
         }
+
         public enum AttachmentDescriptionFlagBits
         {
             MayAliasBit = 1,
         }
+
         public enum AccessFlagBits
         {
             IndirectCommandReadBit = 1,
@@ -890,53 +947,80 @@ namespace Vulkan.NET
             MemoryReadBit = 32768,
             MemoryWriteBit = 65536,
         }
+
         public enum DependencyFlagBits
         {
             ByRegionBit = 1,
         }
+
         public enum CommandPoolCreateFlagBits
         {
             TransientBit = 1,
             ResetBufferBit = 2,
         }
+
         public enum CommandPoolResetFlagBits
         {
             ReleaseResourcesBit = 1,
         }
+
         public enum CommandBufferUsageFlagBits
         {
             OneTimeSubmitBit = 1,
             RenderPassContinueBit = 2,
             SimultaneousUseBit = 4,
         }
+
         public enum QueryControlFlagBits
         {
             PreciseBit = 1,
         }
+
         public enum CommandBufferResetFlagBits
         {
             ReleaseResourcesBit = 1,
         }
+
         public enum StencilFaceFlagBits
         {
             FrontBit = 1,
             BackBit = 2,
             FrontAndBack = 3,
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate System.IntPtr PFN_vkAllocationFunction(System.IntPtr pUserData, System.IntPtr size, System.IntPtr alignment, SystemAllocationScope allocationScope);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate System.IntPtr PFN_vkReallocationFunction(System.IntPtr pUserData, System.IntPtr pOriginal, System.IntPtr size, System.IntPtr alignment, SystemAllocationScope allocationScope);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkFreeFunction(System.IntPtr pUserData, System.IntPtr pMemory);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkInternalAllocationNotification(System.IntPtr pUserData, System.IntPtr size, InternalAllocationType allocationType, SystemAllocationScope allocationScope);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkInternalFreeNotification(System.IntPtr pUserData, System.IntPtr size, InternalAllocationType allocationType, SystemAllocationScope allocationScope);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkVoidFunction();
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ApplicationInfo
         {
             public StructureType sType;
             public System.IntPtr pNext;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 0, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, SizeConst = (System.Int32)0, IidParameterIndex = (System.Int32)0)]
             public string pApplicationName;
             public uint applicationVersion;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 0, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, SizeConst = (System.Int32)0, IidParameterIndex = (System.Int32)0)]
             public string pEngineName;
             public uint engineVersion;
             public uint apiVersion;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct InstanceCreateInfo
         {
             public StructureType sType;
@@ -948,7 +1032,8 @@ namespace Vulkan.NET
             public uint enabledExtensionCount;
             public System.IntPtr ppEnabledExtensionNames;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct AllocationCallbacks
         {
             public System.IntPtr pUserData;
@@ -958,7 +1043,8 @@ namespace Vulkan.NET
             public PFN_vkInternalAllocationNotification pfnInternalAllocation;
             public PFN_vkInternalFreeNotification pfnInternalFree;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PhysicalDeviceFeatures
         {
             public uint robustBufferAccess;
@@ -1017,21 +1103,24 @@ namespace Vulkan.NET
             public uint variableMultisampleRate;
             public uint inheritedQueries;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct FormatProperties
         {
             public uint linearTilingFeatures;
             public uint optimalTilingFeatures;
             public uint bufferFeatures;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Extent3D
         {
             public uint width;
             public uint height;
             public uint depth;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageFormatProperties
         {
             public Extent3D maxExtent;
@@ -1040,7 +1129,8 @@ namespace Vulkan.NET
             public uint sampleCounts;
             public uint maxResourceSize;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PhysicalDeviceLimits
         {
             public uint maxImageDimension1D;
@@ -1095,10 +1185,10 @@ namespace Vulkan.NET
             public uint maxFragmentDualSrcAttachments;
             public uint maxFragmentCombinedOutputResources;
             public uint maxComputeSharedMemorySize;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 8, SizeParamIndex = 0, SizeConst = 3, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)8, SizeConst = (System.Int32)3, IidParameterIndex = (System.Int32)0)]
             public UInt32[] maxComputeWorkGroupCount;
             public uint maxComputeWorkGroupInvocations;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 8, SizeParamIndex = 0, SizeConst = 3, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)8, SizeConst = (System.Int32)3, IidParameterIndex = (System.Int32)0)]
             public UInt32[] maxComputeWorkGroupSize;
             public uint subPixelPrecisionBits;
             public uint subTexelPrecisionBits;
@@ -1108,9 +1198,9 @@ namespace Vulkan.NET
             public float maxSamplerLodBias;
             public float maxSamplerAnisotropy;
             public uint maxViewports;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 8, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)8, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public UInt32[] maxViewportDimensions;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 11, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)11, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public Single[] viewportBoundsRange;
             public uint viewportSubPixelBits;
             public uint minMemoryMapAlignment;
@@ -1144,9 +1234,9 @@ namespace Vulkan.NET
             public uint maxCullDistances;
             public uint maxCombinedClipAndCullDistances;
             public uint discreteQueuePriorities;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 11, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)11, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public Single[] pointSizeRange;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 11, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)11, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public Single[] lineWidthRange;
             public float pointSizeGranularity;
             public float lineWidthGranularity;
@@ -1156,7 +1246,8 @@ namespace Vulkan.NET
             public uint optimalBufferCopyRowPitchAlignment;
             public uint nonCoherentAtomSize;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PhysicalDeviceSparseProperties
         {
             public uint residencyStandard2DBlockShape;
@@ -1165,7 +1256,8 @@ namespace Vulkan.NET
             public uint residencyAlignedMipSize;
             public uint residencyNonResidentStrict;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PhysicalDeviceProperties
         {
             public uint apiVersion;
@@ -1173,14 +1265,15 @@ namespace Vulkan.NET
             public uint vendorID;
             public uint deviceID;
             public PhysicalDeviceType deviceType;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 256, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, SizeConst = (System.Int32)256, IidParameterIndex = (System.Int32)0)]
             public string deviceName;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 16, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, SizeConst = (System.Int32)16, IidParameterIndex = (System.Int32)0)]
             public string pipelineCacheUUID;
             public PhysicalDeviceLimits limits;
             public PhysicalDeviceSparseProperties sparseProperties;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct QueueFamilyProperties
         {
             public uint queueFlags;
@@ -1188,29 +1281,33 @@ namespace Vulkan.NET
             public uint timestampValidBits;
             public Extent3D minImageTransferGranularity;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MemoryType
         {
             public uint propertyFlags;
             public uint heapIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MemoryHeap
         {
             public uint size;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PhysicalDeviceMemoryProperties
         {
             public uint memoryTypeCount;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 27, SizeParamIndex = 0, SizeConst = 32, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)27, SizeConst = (System.Int32)32, IidParameterIndex = (System.Int32)0)]
             public MemoryType[] memoryTypes;
             public uint memoryHeapCount;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 27, SizeParamIndex = 0, SizeConst = 16, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)27, SizeConst = (System.Int32)16, IidParameterIndex = (System.Int32)0)]
             public MemoryHeap[] memoryHeaps;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DeviceQueueCreateInfo
         {
             public StructureType sType;
@@ -1220,7 +1317,8 @@ namespace Vulkan.NET
             public uint queueCount;
             public System.IntPtr pQueuePriorities;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DeviceCreateInfo
         {
             public StructureType sType;
@@ -1234,24 +1332,27 @@ namespace Vulkan.NET
             public System.IntPtr ppEnabledExtensionNames;
             public System.IntPtr pEnabledFeatures;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ExtensionProperties
         {
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 256, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, SizeConst = (System.Int32)256, IidParameterIndex = (System.Int32)0)]
             public string extensionName;
             public uint specVersion;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct LayerProperties
         {
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 256, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, SizeConst = (System.Int32)256, IidParameterIndex = (System.Int32)0)]
             public string layerName;
             public uint specVersion;
             public uint implementationVersion;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 256, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)23, SizeConst = (System.Int32)256, IidParameterIndex = (System.Int32)0)]
             public string description;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SubmitInfo
         {
             public StructureType sType;
@@ -1264,7 +1365,8 @@ namespace Vulkan.NET
             public uint signalSemaphoreCount;
             public System.IntPtr pSignalSemaphores;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MemoryAllocateInfo
         {
             public StructureType sType;
@@ -1272,7 +1374,8 @@ namespace Vulkan.NET
             public uint allocationSize;
             public uint memoryTypeIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MappedMemoryRange
         {
             public StructureType sType;
@@ -1281,21 +1384,24 @@ namespace Vulkan.NET
             public uint offset;
             public uint size;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MemoryRequirements
         {
             public uint size;
             public uint alignment;
             public uint memoryTypeBits;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseImageFormatProperties
         {
             public uint aspectMask;
             public Extent3D imageGranularity;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseImageMemoryRequirements
         {
             public SparseImageFormatProperties formatProperties;
@@ -1304,7 +1410,8 @@ namespace Vulkan.NET
             public uint imageMipTailOffset;
             public uint imageMipTailStride;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseMemoryBind
         {
             public uint resourceOffset;
@@ -1313,35 +1420,40 @@ namespace Vulkan.NET
             public uint memoryOffset;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseBufferMemoryBindInfo
         {
             public uint buffer;
             public uint bindCount;
             public System.IntPtr pBinds;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseImageOpaqueMemoryBindInfo
         {
             public uint image;
             public uint bindCount;
             public System.IntPtr pBinds;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageSubresource
         {
             public uint aspectMask;
             public uint mipLevel;
             public uint arrayLayer;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Offset3D
         {
             public int x;
             public int y;
             public int z;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseImageMemoryBind
         {
             public ImageSubresource subresource;
@@ -1351,14 +1463,16 @@ namespace Vulkan.NET
             public uint memoryOffset;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SparseImageMemoryBindInfo
         {
             public uint image;
             public uint bindCount;
             public System.IntPtr pBinds;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BindSparseInfo
         {
             public StructureType sType;
@@ -1374,28 +1488,32 @@ namespace Vulkan.NET
             public uint signalSemaphoreCount;
             public System.IntPtr pSignalSemaphores;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct FenceCreateInfo
         {
             public StructureType sType;
             public System.IntPtr pNext;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SemaphoreCreateInfo
         {
             public StructureType sType;
             public System.IntPtr pNext;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct EventCreateInfo
         {
             public StructureType sType;
             public System.IntPtr pNext;
             public uint flags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct QueryPoolCreateInfo
         {
             public StructureType sType;
@@ -1405,7 +1523,8 @@ namespace Vulkan.NET
             public uint queryCount;
             public uint pipelineStatistics;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BufferCreateInfo
         {
             public StructureType sType;
@@ -1417,7 +1536,8 @@ namespace Vulkan.NET
             public uint queueFamilyIndexCount;
             public System.IntPtr pQueueFamilyIndices;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BufferViewCreateInfo
         {
             public StructureType sType;
@@ -1428,7 +1548,8 @@ namespace Vulkan.NET
             public uint offset;
             public uint range;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageCreateInfo
         {
             public StructureType sType;
@@ -1447,7 +1568,8 @@ namespace Vulkan.NET
             public System.IntPtr pQueueFamilyIndices;
             public ImageLayout initialLayout;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SubresourceLayout
         {
             public uint offset;
@@ -1456,7 +1578,8 @@ namespace Vulkan.NET
             public uint arrayPitch;
             public uint depthPitch;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ComponentMapping
         {
             public ComponentSwizzle r;
@@ -1464,7 +1587,8 @@ namespace Vulkan.NET
             public ComponentSwizzle b;
             public ComponentSwizzle a;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageSubresourceRange
         {
             public uint aspectMask;
@@ -1473,7 +1597,8 @@ namespace Vulkan.NET
             public uint baseArrayLayer;
             public uint layerCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageViewCreateInfo
         {
             public StructureType sType;
@@ -1485,7 +1610,8 @@ namespace Vulkan.NET
             public ComponentMapping components;
             public ImageSubresourceRange subresourceRange;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ShaderModuleCreateInfo
         {
             public StructureType sType;
@@ -1494,7 +1620,8 @@ namespace Vulkan.NET
             public uint codeSize;
             public System.IntPtr pCode;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineCacheCreateInfo
         {
             public StructureType sType;
@@ -1503,14 +1630,16 @@ namespace Vulkan.NET
             public uint initialDataSize;
             public System.IntPtr pInitialData;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SpecializationMapEntry
         {
             public uint constantID;
             public uint offset;
             public uint size;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SpecializationInfo
         {
             public uint mapEntryCount;
@@ -1518,7 +1647,8 @@ namespace Vulkan.NET
             public uint dataSize;
             public System.IntPtr pData;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineShaderStageCreateInfo
         {
             public StructureType sType;
@@ -1526,18 +1656,20 @@ namespace Vulkan.NET
             public uint flags;
             public ShaderStageFlagBits stage;
             public uint module;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 0, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, SizeConst = (System.Int32)0, IidParameterIndex = (System.Int32)0)]
             public string pName;
             public System.IntPtr pSpecializationInfo;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct VertexInputBindingDescription
         {
             public uint binding;
             public uint stride;
             public VertexInputRate inputRate;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct VertexInputAttributeDescription
         {
             public uint location;
@@ -1545,7 +1677,8 @@ namespace Vulkan.NET
             public Format format;
             public uint offset;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineVertexInputStateCreateInfo
         {
             public StructureType sType;
@@ -1556,7 +1689,8 @@ namespace Vulkan.NET
             public uint vertexAttributeDescriptionCount;
             public System.IntPtr pVertexAttributeDescriptions;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineInputAssemblyStateCreateInfo
         {
             public StructureType sType;
@@ -1565,7 +1699,8 @@ namespace Vulkan.NET
             public PrimitiveTopology topology;
             public uint primitiveRestartEnable;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineTessellationStateCreateInfo
         {
             public StructureType sType;
@@ -1573,7 +1708,8 @@ namespace Vulkan.NET
             public uint flags;
             public uint patchControlPoints;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Viewport
         {
             public float x;
@@ -1583,25 +1719,29 @@ namespace Vulkan.NET
             public float minDepth;
             public float maxDepth;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Offset2D
         {
             public int x;
             public int y;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Extent2D
         {
             public uint width;
             public uint height;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct Rect2D
         {
             public Offset2D offset;
             public Extent2D extent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineViewportStateCreateInfo
         {
             public StructureType sType;
@@ -1612,7 +1752,8 @@ namespace Vulkan.NET
             public uint scissorCount;
             public System.IntPtr pScissors;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineRasterizationStateCreateInfo
         {
             public StructureType sType;
@@ -1629,7 +1770,8 @@ namespace Vulkan.NET
             public float depthBiasSlopeFactor;
             public float lineWidth;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineMultisampleStateCreateInfo
         {
             public StructureType sType;
@@ -1642,7 +1784,8 @@ namespace Vulkan.NET
             public uint alphaToCoverageEnable;
             public uint alphaToOneEnable;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct StencilOpState
         {
             public StencilOp failOp;
@@ -1653,7 +1796,8 @@ namespace Vulkan.NET
             public uint writeMask;
             public uint reference;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineDepthStencilStateCreateInfo
         {
             public StructureType sType;
@@ -1669,7 +1813,8 @@ namespace Vulkan.NET
             public float minDepthBounds;
             public float maxDepthBounds;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineColorBlendAttachmentState
         {
             public uint blendEnable;
@@ -1681,7 +1826,8 @@ namespace Vulkan.NET
             public BlendOp alphaBlendOp;
             public uint colorWriteMask;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineColorBlendStateCreateInfo
         {
             public StructureType sType;
@@ -1691,10 +1837,11 @@ namespace Vulkan.NET
             public LogicOp logicOp;
             public uint attachmentCount;
             public System.IntPtr pAttachments;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 11, SizeParamIndex = 0, SizeConst = 4, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)11, SizeConst = (System.Int32)4, IidParameterIndex = (System.Int32)0)]
             public Single[] blendConstants;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineDynamicStateCreateInfo
         {
             public StructureType sType;
@@ -1703,7 +1850,8 @@ namespace Vulkan.NET
             public uint dynamicStateCount;
             public System.IntPtr pDynamicStates;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct GraphicsPipelineCreateInfo
         {
             public StructureType sType;
@@ -1726,7 +1874,8 @@ namespace Vulkan.NET
             public uint basePipelineHandle;
             public int basePipelineIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ComputePipelineCreateInfo
         {
             public StructureType sType;
@@ -1737,14 +1886,16 @@ namespace Vulkan.NET
             public uint basePipelineHandle;
             public int basePipelineIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PushConstantRange
         {
             public uint stageFlags;
             public uint offset;
             public uint size;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PipelineLayoutCreateInfo
         {
             public StructureType sType;
@@ -1755,7 +1906,8 @@ namespace Vulkan.NET
             public uint pushConstantRangeCount;
             public System.IntPtr pPushConstantRanges;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SamplerCreateInfo
         {
             public StructureType sType;
@@ -1777,7 +1929,8 @@ namespace Vulkan.NET
             public BorderColor borderColor;
             public uint unnormalizedCoordinates;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorSetLayoutBinding
         {
             public uint binding;
@@ -1786,7 +1939,8 @@ namespace Vulkan.NET
             public uint stageFlags;
             public System.IntPtr pImmutableSamplers;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorSetLayoutCreateInfo
         {
             public StructureType sType;
@@ -1795,13 +1949,15 @@ namespace Vulkan.NET
             public uint bindingCount;
             public System.IntPtr pBindings;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorPoolSize
         {
             public DescriptorType type;
             public uint descriptorCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorPoolCreateInfo
         {
             public StructureType sType;
@@ -1811,7 +1967,8 @@ namespace Vulkan.NET
             public uint poolSizeCount;
             public System.IntPtr pPoolSizes;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorSetAllocateInfo
         {
             public StructureType sType;
@@ -1820,21 +1977,24 @@ namespace Vulkan.NET
             public uint descriptorSetCount;
             public System.IntPtr pSetLayouts;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorImageInfo
         {
             public uint sampler;
             public uint imageView;
             public ImageLayout imageLayout;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DescriptorBufferInfo
         {
             public uint buffer;
             public uint offset;
             public uint range;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct WriteDescriptorSet
         {
             public StructureType sType;
@@ -1848,7 +2008,8 @@ namespace Vulkan.NET
             public System.IntPtr pBufferInfo;
             public System.IntPtr pTexelBufferView;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct CopyDescriptorSet
         {
             public StructureType sType;
@@ -1861,7 +2022,8 @@ namespace Vulkan.NET
             public uint dstArrayElement;
             public uint descriptorCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct FramebufferCreateInfo
         {
             public StructureType sType;
@@ -1874,7 +2036,8 @@ namespace Vulkan.NET
             public uint height;
             public uint layers;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct AttachmentDescription
         {
             public uint flags;
@@ -1887,13 +2050,15 @@ namespace Vulkan.NET
             public ImageLayout initialLayout;
             public ImageLayout finalLayout;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct AttachmentReference
         {
             public uint attachment;
             public ImageLayout layout;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SubpassDescription
         {
             public uint flags;
@@ -1907,7 +2072,8 @@ namespace Vulkan.NET
             public uint preserveAttachmentCount;
             public System.IntPtr pPreserveAttachments;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SubpassDependency
         {
             public uint srcSubpass;
@@ -1918,7 +2084,8 @@ namespace Vulkan.NET
             public uint dstAccessMask;
             public uint dependencyFlags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct RenderPassCreateInfo
         {
             public StructureType sType;
@@ -1931,7 +2098,8 @@ namespace Vulkan.NET
             public uint dependencyCount;
             public System.IntPtr pDependencies;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct CommandPoolCreateInfo
         {
             public StructureType sType;
@@ -1939,7 +2107,8 @@ namespace Vulkan.NET
             public uint flags;
             public uint queueFamilyIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct CommandBufferAllocateInfo
         {
             public StructureType sType;
@@ -1948,7 +2117,8 @@ namespace Vulkan.NET
             public CommandBufferLevel level;
             public uint commandBufferCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct CommandBufferInheritanceInfo
         {
             public StructureType sType;
@@ -1960,7 +2130,8 @@ namespace Vulkan.NET
             public uint queryFlags;
             public uint pipelineStatistics;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct CommandBufferBeginInfo
         {
             public StructureType sType;
@@ -1968,14 +2139,16 @@ namespace Vulkan.NET
             public uint flags;
             public System.IntPtr pInheritanceInfo;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BufferCopy
         {
             public uint srcOffset;
             public uint dstOffset;
             public uint size;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageSubresourceLayers
         {
             public uint aspectMask;
@@ -1983,7 +2156,8 @@ namespace Vulkan.NET
             public uint baseArrayLayer;
             public uint layerCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageCopy
         {
             public ImageSubresourceLayers srcSubresource;
@@ -1992,17 +2166,19 @@ namespace Vulkan.NET
             public Offset3D dstOffset;
             public Extent3D extent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageBlit
         {
             public ImageSubresourceLayers srcSubresource;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 27, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)27, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public Offset3D[] srcOffsets;
             public ImageSubresourceLayers dstSubresource;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 27, SizeParamIndex = 0, SizeConst = 2, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)27, SizeConst = (System.Int32)2, IidParameterIndex = (System.Int32)0)]
             public Offset3D[] dstOffsets;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BufferImageCopy
         {
             public uint bufferOffset;
@@ -2012,29 +2188,29 @@ namespace Vulkan.NET
             public Offset3D imageOffset;
             public Extent3D imageExtent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Explicit)]
-        public struct ClearColorValue
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Explicit)]
+        public unsafe struct ClearColorValue
         {
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 11, SizeParamIndex = 0, SizeConst = 4, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)11, SizeConst = (System.Int32)4, IidParameterIndex = (System.Int32)0)]
             [System.Runtime.InteropServices.FieldOffsetAttribute((System.Int32)0)]
-            [System.Runtime.CompilerServices.FixedBufferAttribute((System.Type)System.Single, (System.Int32)4)]
-            public float float32;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 7, SizeParamIndex = 0, SizeConst = 4, IidParameterIndex = 0, SafeArraySubType = 0)]
+            public fixed float float32[(Int32)4];
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)7, SizeConst = (System.Int32)4, IidParameterIndex = (System.Int32)0)]
             [System.Runtime.InteropServices.FieldOffsetAttribute((System.Int32)0)]
-            [System.Runtime.CompilerServices.FixedBufferAttribute((System.Type)System.Int32, (System.Int32)4)]
-            public int int32;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = 8, SizeParamIndex = 0, SizeConst = 4, IidParameterIndex = 0, SafeArraySubType = 0)]
+            public fixed int int32[(Int32)4];
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)30, ArraySubType = (System.Runtime.InteropServices.UnmanagedType)8, SizeConst = (System.Int32)4, IidParameterIndex = (System.Int32)0)]
             [System.Runtime.InteropServices.FieldOffsetAttribute((System.Int32)0)]
-            [System.Runtime.CompilerServices.FixedBufferAttribute((System.Type)System.UInt32, (System.Int32)4)]
-            public uint uint32;
+            public fixed uint uint32[(Int32)4];
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ClearDepthStencilValue
         {
             public float depth;
             public uint stencil;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Explicit)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Explicit)]
         public struct ClearValue
         {
             [System.Runtime.InteropServices.FieldOffsetAttribute((System.Int32)0)]
@@ -2042,21 +2218,24 @@ namespace Vulkan.NET
             [System.Runtime.InteropServices.FieldOffsetAttribute((System.Int32)0)]
             public ClearDepthStencilValue depthStencil;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ClearAttachment
         {
             public uint aspectMask;
             public uint colorAttachment;
             public ClearValue clearValue;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ClearRect
         {
             public Rect2D rect;
             public uint baseArrayLayer;
             public uint layerCount;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageResolve
         {
             public ImageSubresourceLayers srcSubresource;
@@ -2065,7 +2244,8 @@ namespace Vulkan.NET
             public Offset3D dstOffset;
             public Extent3D extent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct MemoryBarrier
         {
             public StructureType sType;
@@ -2073,7 +2253,8 @@ namespace Vulkan.NET
             public uint srcAccessMask;
             public uint dstAccessMask;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct BufferMemoryBarrier
         {
             public StructureType sType;
@@ -2086,7 +2267,8 @@ namespace Vulkan.NET
             public uint offset;
             public uint size;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct ImageMemoryBarrier
         {
             public StructureType sType;
@@ -2100,7 +2282,8 @@ namespace Vulkan.NET
             public uint image;
             public ImageSubresourceRange subresourceRange;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct RenderPassBeginInfo
         {
             public StructureType sType;
@@ -2111,14 +2294,16 @@ namespace Vulkan.NET
             public uint clearValueCount;
             public System.IntPtr pClearValues;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DispatchIndirectCommand
         {
             public uint x;
             public uint y;
             public uint z;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DrawIndexedIndirectCommand
         {
             public uint indexCount;
@@ -2127,7 +2312,8 @@ namespace Vulkan.NET
             public int vertexOffset;
             public uint firstInstance;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DrawIndirectCommand
         {
             public uint vertexCount;
@@ -2135,6 +2321,418 @@ namespace Vulkan.NET
             public uint firstVertex;
             public uint firstInstance;
         }
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateInstance(ref InstanceCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref IntPtr pInstance);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyInstance(System.IntPtr instance, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEnumeratePhysicalDevices(System.IntPtr instance, ref UInt32 pPhysicalDeviceCount, ref IntPtr pPhysicalDevices);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceFeatures(System.IntPtr physicalDevice, ref PhysicalDeviceFeatures pFeatures);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceFormatProperties(System.IntPtr physicalDevice, Format format, ref FormatProperties pFormatProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceImageFormatProperties(System.IntPtr physicalDevice, Format format, ImageType type, ImageTiling tiling, uint usage, uint flags, ref ImageFormatProperties pImageFormatProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceProperties(System.IntPtr physicalDevice, ref PhysicalDeviceProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceQueueFamilyProperties(System.IntPtr physicalDevice, ref UInt32 pQueueFamilyPropertyCount, ref QueueFamilyProperties pQueueFamilyProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceMemoryProperties(System.IntPtr physicalDevice, ref PhysicalDeviceMemoryProperties pMemoryProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate PFN_vkVoidFunction PFN_vkGetInstanceProcAddr(System.IntPtr instance, string pName);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate PFN_vkVoidFunction PFN_vkGetDeviceProcAddr(System.IntPtr device, string pName);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDevice(System.IntPtr physicalDevice, ref DeviceCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref IntPtr pDevice);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyDevice(System.IntPtr device, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEnumerateInstanceExtensionProperties(string pLayerName, ref UInt32 pPropertyCount, ref ExtensionProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEnumerateDeviceExtensionProperties(System.IntPtr physicalDevice, string pLayerName, ref UInt32 pPropertyCount, ref ExtensionProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEnumerateInstanceLayerProperties(ref UInt32 pPropertyCount, ref LayerProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEnumerateDeviceLayerProperties(System.IntPtr physicalDevice, ref UInt32 pPropertyCount, ref LayerProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetDeviceQueue(System.IntPtr device, uint queueFamilyIndex, uint queueIndex, ref IntPtr pQueue);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkQueueSubmit(System.IntPtr queue, uint submitCount, ref SubmitInfo pSubmits, uint fence);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkQueueWaitIdle(System.IntPtr queue);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkDeviceWaitIdle(System.IntPtr device);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkAllocateMemory(System.IntPtr device, ref MemoryAllocateInfo pAllocateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pMemory);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkFreeMemory(System.IntPtr device, uint memory, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkMapMemory(System.IntPtr device, uint memory, uint offset, uint size, uint flags, ref IntPtr ppData);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkUnmapMemory(System.IntPtr device, uint memory);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkFlushMappedMemoryRanges(System.IntPtr device, uint memoryRangeCount, ref MappedMemoryRange pMemoryRanges);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkInvalidateMappedMemoryRanges(System.IntPtr device, uint memoryRangeCount, ref MappedMemoryRange pMemoryRanges);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetDeviceMemoryCommitment(System.IntPtr device, uint memory, ref UInt32 pCommittedMemoryInBytes);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkBindBufferMemory(System.IntPtr device, uint buffer, uint memory, uint memoryOffset);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkBindImageMemory(System.IntPtr device, uint image, uint memory, uint memoryOffset);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetBufferMemoryRequirements(System.IntPtr device, uint buffer, ref MemoryRequirements pMemoryRequirements);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetImageMemoryRequirements(System.IntPtr device, uint image, ref MemoryRequirements pMemoryRequirements);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetImageSparseMemoryRequirements(System.IntPtr device, uint image, ref UInt32 pSparseMemoryRequirementCount, ref SparseImageMemoryRequirements pSparseMemoryRequirements);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetPhysicalDeviceSparseImageFormatProperties(System.IntPtr physicalDevice, Format format, ImageType type, SampleCountFlagBits samples, uint usage, ImageTiling tiling, ref UInt32 pPropertyCount, ref SparseImageFormatProperties pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkQueueBindSparse(System.IntPtr queue, uint bindInfoCount, ref BindSparseInfo pBindInfo, uint fence);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateFence(System.IntPtr device, ref FenceCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pFence);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyFence(System.IntPtr device, uint fence, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkResetFences(System.IntPtr device, uint fenceCount, ref UInt32 pFences);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetFenceStatus(System.IntPtr device, uint fence);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkWaitForFences(System.IntPtr device, uint fenceCount, ref UInt32 pFences, uint waitAll, uint timeout);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateSemaphore(System.IntPtr device, ref SemaphoreCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pSemaphore);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroySemaphore(System.IntPtr device, uint semaphore, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateEvent(System.IntPtr device, ref EventCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pEvent);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyEvent(System.IntPtr device, uint @event, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetEventStatus(System.IntPtr device, uint @event);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkSetEvent(System.IntPtr device, uint @event);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkResetEvent(System.IntPtr device, uint @event);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateQueryPool(System.IntPtr device, ref QueryPoolCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pQueryPool);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyQueryPool(System.IntPtr device, uint queryPool, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetQueryPoolResults(System.IntPtr device, uint queryPool, uint firstQuery, uint queryCount, System.IntPtr dataSize, System.IntPtr pData, uint stride, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateBuffer(System.IntPtr device, ref BufferCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pBuffer);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyBuffer(System.IntPtr device, uint buffer, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateBufferView(System.IntPtr device, ref BufferViewCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pView);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyBufferView(System.IntPtr device, uint bufferView, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateImage(System.IntPtr device, ref ImageCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pImage);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyImage(System.IntPtr device, uint image, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetImageSubresourceLayout(System.IntPtr device, uint image, ref ImageSubresource pSubresource, ref SubresourceLayout pLayout);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateImageView(System.IntPtr device, ref ImageViewCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pView);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyImageView(System.IntPtr device, uint imageView, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateShaderModule(System.IntPtr device, ref ShaderModuleCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pShaderModule);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyShaderModule(System.IntPtr device, uint shaderModule, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreatePipelineCache(System.IntPtr device, ref PipelineCacheCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pPipelineCache);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyPipelineCache(System.IntPtr device, uint pipelineCache, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPipelineCacheData(System.IntPtr device, uint pipelineCache, ref UInt32 pDataSize, System.IntPtr pData);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkMergePipelineCaches(System.IntPtr device, uint dstCache, uint srcCacheCount, ref UInt32 pSrcCaches);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateGraphicsPipelines(System.IntPtr device, uint pipelineCache, uint createInfoCount, ref GraphicsPipelineCreateInfo pCreateInfos, ref AllocationCallbacks pAllocator, ref UInt32 pPipelines);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateComputePipelines(System.IntPtr device, uint pipelineCache, uint createInfoCount, ref ComputePipelineCreateInfo pCreateInfos, ref AllocationCallbacks pAllocator, ref UInt32 pPipelines);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyPipeline(System.IntPtr device, uint pipeline, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreatePipelineLayout(System.IntPtr device, ref PipelineLayoutCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pPipelineLayout);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyPipelineLayout(System.IntPtr device, uint pipelineLayout, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateSampler(System.IntPtr device, ref SamplerCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pSampler);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroySampler(System.IntPtr device, uint sampler, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDescriptorSetLayout(System.IntPtr device, ref DescriptorSetLayoutCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pSetLayout);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyDescriptorSetLayout(System.IntPtr device, uint descriptorSetLayout, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDescriptorPool(System.IntPtr device, ref DescriptorPoolCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pDescriptorPool);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyDescriptorPool(System.IntPtr device, uint descriptorPool, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkResetDescriptorPool(System.IntPtr device, uint descriptorPool, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkAllocateDescriptorSets(System.IntPtr device, ref DescriptorSetAllocateInfo pAllocateInfo, ref UInt32 pDescriptorSets);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkFreeDescriptorSets(System.IntPtr device, uint descriptorPool, uint descriptorSetCount, ref UInt32 pDescriptorSets);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkUpdateDescriptorSets(System.IntPtr device, uint descriptorWriteCount, ref WriteDescriptorSet pDescriptorWrites, uint descriptorCopyCount, ref CopyDescriptorSet pDescriptorCopies);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateFramebuffer(System.IntPtr device, ref FramebufferCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pFramebuffer);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyFramebuffer(System.IntPtr device, uint framebuffer, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateRenderPass(System.IntPtr device, ref RenderPassCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pRenderPass);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyRenderPass(System.IntPtr device, uint renderPass, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkGetRenderAreaGranularity(System.IntPtr device, uint renderPass, ref Extent2D pGranularity);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateCommandPool(System.IntPtr device, ref CommandPoolCreateInfo pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pCommandPool);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyCommandPool(System.IntPtr device, uint commandPool, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkResetCommandPool(System.IntPtr device, uint commandPool, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkAllocateCommandBuffers(System.IntPtr device, ref CommandBufferAllocateInfo pAllocateInfo, ref IntPtr pCommandBuffers);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkFreeCommandBuffers(System.IntPtr device, uint commandPool, uint commandBufferCount, ref IntPtr pCommandBuffers);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkBeginCommandBuffer(System.IntPtr commandBuffer, ref CommandBufferBeginInfo pBeginInfo);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkEndCommandBuffer(System.IntPtr commandBuffer);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkResetCommandBuffer(System.IntPtr commandBuffer, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBindPipeline(System.IntPtr commandBuffer, PipelineBindPoint pipelineBindPoint, uint pipeline);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetViewport(System.IntPtr commandBuffer, uint firstViewport, uint viewportCount, ref Viewport pViewports);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetScissor(System.IntPtr commandBuffer, uint firstScissor, uint scissorCount, ref Rect2D pScissors);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetLineWidth(System.IntPtr commandBuffer, float lineWidth);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetDepthBias(System.IntPtr commandBuffer, float depthBiasConstantFactor, float depthBiasClamp, float depthBiasSlopeFactor);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetBlendConstants(System.IntPtr commandBuffer, ref Single blendConstants);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetDepthBounds(System.IntPtr commandBuffer, float minDepthBounds, float maxDepthBounds);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetStencilCompareMask(System.IntPtr commandBuffer, uint faceMask, uint compareMask);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetStencilWriteMask(System.IntPtr commandBuffer, uint faceMask, uint writeMask);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetStencilReference(System.IntPtr commandBuffer, uint faceMask, uint reference);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBindDescriptorSets(System.IntPtr commandBuffer, PipelineBindPoint pipelineBindPoint, uint layout, uint firstSet, uint descriptorSetCount, ref UInt32 pDescriptorSets, uint dynamicOffsetCount, ref UInt32 pDynamicOffsets);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBindIndexBuffer(System.IntPtr commandBuffer, uint buffer, uint offset, IndexType indexType);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBindVertexBuffers(System.IntPtr commandBuffer, uint firstBinding, uint bindingCount, ref UInt32 pBuffers, ref UInt32 pOffsets);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDraw(System.IntPtr commandBuffer, uint vertexCount, uint instanceCount, uint firstVertex, uint firstInstance);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDrawIndexed(System.IntPtr commandBuffer, uint indexCount, uint instanceCount, uint firstIndex, int vertexOffset, uint firstInstance);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDrawIndirect(System.IntPtr commandBuffer, uint buffer, uint offset, uint drawCount, uint stride);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDrawIndexedIndirect(System.IntPtr commandBuffer, uint buffer, uint offset, uint drawCount, uint stride);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDispatch(System.IntPtr commandBuffer, uint x, uint y, uint z);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdDispatchIndirect(System.IntPtr commandBuffer, uint buffer, uint offset);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdCopyBuffer(System.IntPtr commandBuffer, uint srcBuffer, uint dstBuffer, uint regionCount, ref BufferCopy pRegions);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdCopyImage(System.IntPtr commandBuffer, uint srcImage, ImageLayout srcImageLayout, uint dstImage, ImageLayout dstImageLayout, uint regionCount, ref ImageCopy pRegions);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBlitImage(System.IntPtr commandBuffer, uint srcImage, ImageLayout srcImageLayout, uint dstImage, ImageLayout dstImageLayout, uint regionCount, ref ImageBlit pRegions, Filter filter);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdCopyBufferToImage(System.IntPtr commandBuffer, uint srcBuffer, uint dstImage, ImageLayout dstImageLayout, uint regionCount, ref BufferImageCopy pRegions);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdCopyImageToBuffer(System.IntPtr commandBuffer, uint srcImage, ImageLayout srcImageLayout, uint dstBuffer, uint regionCount, ref BufferImageCopy pRegions);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdUpdateBuffer(System.IntPtr commandBuffer, uint dstBuffer, uint dstOffset, uint dataSize, ref UInt32 pData);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdFillBuffer(System.IntPtr commandBuffer, uint dstBuffer, uint dstOffset, uint size, uint data);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdClearColorImage(System.IntPtr commandBuffer, uint image, ImageLayout imageLayout, ref ClearColorValue pColor, uint rangeCount, ref ImageSubresourceRange pRanges);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdClearDepthStencilImage(System.IntPtr commandBuffer, uint image, ImageLayout imageLayout, ref ClearDepthStencilValue pDepthStencil, uint rangeCount, ref ImageSubresourceRange pRanges);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdClearAttachments(System.IntPtr commandBuffer, uint attachmentCount, ref ClearAttachment pAttachments, uint rectCount, ref ClearRect pRects);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdResolveImage(System.IntPtr commandBuffer, uint srcImage, ImageLayout srcImageLayout, uint dstImage, ImageLayout dstImageLayout, uint regionCount, ref ImageResolve pRegions);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdSetEvent(System.IntPtr commandBuffer, uint @event, uint stageMask);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdResetEvent(System.IntPtr commandBuffer, uint @event, uint stageMask);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdWaitEvents(System.IntPtr commandBuffer, uint eventCount, ref UInt32 pEvents, uint srcStageMask, uint dstStageMask, uint memoryBarrierCount, ref MemoryBarrier pMemoryBarriers, uint bufferMemoryBarrierCount, ref BufferMemoryBarrier pBufferMemoryBarriers, uint imageMemoryBarrierCount, ref ImageMemoryBarrier pImageMemoryBarriers);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdPipelineBarrier(System.IntPtr commandBuffer, uint srcStageMask, uint dstStageMask, uint dependencyFlags, uint memoryBarrierCount, ref MemoryBarrier pMemoryBarriers, uint bufferMemoryBarrierCount, ref BufferMemoryBarrier pBufferMemoryBarriers, uint imageMemoryBarrierCount, ref ImageMemoryBarrier pImageMemoryBarriers);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBeginQuery(System.IntPtr commandBuffer, uint queryPool, uint query, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdEndQuery(System.IntPtr commandBuffer, uint queryPool, uint query);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdResetQueryPool(System.IntPtr commandBuffer, uint queryPool, uint firstQuery, uint queryCount);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdWriteTimestamp(System.IntPtr commandBuffer, PipelineStageFlagBits pipelineStage, uint queryPool, uint query);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdCopyQueryPoolResults(System.IntPtr commandBuffer, uint queryPool, uint firstQuery, uint queryCount, uint dstBuffer, uint dstOffset, uint stride, uint flags);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdPushConstants(System.IntPtr commandBuffer, uint layout, uint stageFlags, uint offset, uint size, System.IntPtr pValues);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdBeginRenderPass(System.IntPtr commandBuffer, ref RenderPassBeginInfo pRenderPassBegin, SubpassContents contents);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdNextSubpass(System.IntPtr commandBuffer, SubpassContents contents);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdEndRenderPass(System.IntPtr commandBuffer);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkCmdExecuteCommands(System.IntPtr commandBuffer, uint commandBufferCount, ref IntPtr pCommandBuffers);
+
         public enum ColorSpaceKHR
         {
             ColorspaceEndRange = 0,
@@ -2143,6 +2741,7 @@ namespace Vulkan.NET
             ColorspaceMaxEnum = 2147483647,
             ColorspaceRangeSize = -1,
         }
+
         public enum PresentModeKHR
         {
             ModeImmediateKHR = 0,
@@ -2154,6 +2753,7 @@ namespace Vulkan.NET
             ModeEndRange = 3,
             ModeMaxEnum = 2147483647,
         }
+
         public enum SurfaceTransformFlagBitsKHR
         {
             IdentityBitKHR = 1,
@@ -2166,6 +2766,7 @@ namespace Vulkan.NET
             HorizontalMirrorRotate270BitKHR = 128,
             InheritBitKHR = 256,
         }
+
         public enum CompositeAlphaFlagBitsKHR
         {
             OpaqueBitKHR = 1,
@@ -2173,7 +2774,8 @@ namespace Vulkan.NET
             PostMultipliedBitKHR = 4,
             InheritBitKHR = 8,
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SurfaceCapabilitiesKHR
         {
             public uint minImageCount;
@@ -2187,13 +2789,30 @@ namespace Vulkan.NET
             public uint supportedCompositeAlpha;
             public uint supportedUsageFlags;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SurfaceFormatKHR
         {
             public Format format;
             public ColorSpaceKHR colorSpace;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroySurfaceKHR(System.IntPtr instance, uint surface, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceSurfaceSupportKHR(System.IntPtr physicalDevice, uint queueFamilyIndex, uint surface, ref UInt32 pSupported);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceSurfaceCapabilitiesKHR(System.IntPtr physicalDevice, uint surface, ref SurfaceCapabilitiesKHR pSurfaceCapabilities);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceSurfaceFormatsKHR(System.IntPtr physicalDevice, uint surface, ref UInt32 pSurfaceFormatCount, ref SurfaceFormatKHR pSurfaceFormats);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceSurfacePresentModesKHR(System.IntPtr physicalDevice, uint surface, ref UInt32 pPresentModeCount, ref PresentModeKHR pPresentModes);
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct SwapchainCreateInfoKHR
         {
             public StructureType sType;
@@ -2215,7 +2834,8 @@ namespace Vulkan.NET
             public uint clipped;
             public uint oldSwapchain;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct PresentInfoKHR
         {
             public StructureType sType;
@@ -2227,6 +2847,22 @@ namespace Vulkan.NET
             public System.IntPtr pImageIndices;
             public System.IntPtr pResults;
         }
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateSwapchainKHR(System.IntPtr device, ref SwapchainCreateInfoKHR pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pSwapchain);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroySwapchainKHR(System.IntPtr device, uint swapchain, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetSwapchainImagesKHR(System.IntPtr device, uint swapchain, ref UInt32 pSwapchainImageCount, ref UInt32 pSwapchainImages);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkAcquireNextImageKHR(System.IntPtr device, uint swapchain, uint timeout, uint semaphore, uint fence, ref UInt32 pImageIndex);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkQueuePresentKHR(System.IntPtr queue, ref PresentInfoKHR pPresentInfo);
+
         public enum DisplayPlaneAlphaFlagBitsKHR
         {
             OpaqueBitKHR = 1,
@@ -2234,11 +2870,12 @@ namespace Vulkan.NET
             PerPixelBitKHR = 4,
             PerPixelPremultipliedBitKHR = 8,
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayPropertiesKHR
         {
             public uint display;
-            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, ArraySubType = 0, SizeParamIndex = 0, SizeConst = 0, IidParameterIndex = 0, SafeArraySubType = 0)]
+            [System.Runtime.InteropServices.MarshalAsAttribute((System.Runtime.InteropServices.UnmanagedType)20, SizeConst = (System.Int32)0, IidParameterIndex = (System.Int32)0)]
             public string displayName;
             public Extent2D physicalDimensions;
             public Extent2D physicalResolution;
@@ -2246,19 +2883,22 @@ namespace Vulkan.NET
             public uint planeReorderPossible;
             public uint persistentContent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayModeParametersKHR
         {
             public Extent2D visibleRegion;
             public uint refreshRate;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayModePropertiesKHR
         {
             public uint displayMode;
             public DisplayModeParametersKHR parameters;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayModeCreateInfoKHR
         {
             public StructureType sType;
@@ -2266,7 +2906,8 @@ namespace Vulkan.NET
             public uint flags;
             public DisplayModeParametersKHR parameters;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayPlaneCapabilitiesKHR
         {
             public uint supportedAlpha;
@@ -2279,13 +2920,15 @@ namespace Vulkan.NET
             public Extent2D minDstExtent;
             public Extent2D maxDstExtent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayPlanePropertiesKHR
         {
             public uint currentDisplay;
             public uint currentStackIndex;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplaySurfaceCreateInfoKHR
         {
             public StructureType sType;
@@ -2299,7 +2942,29 @@ namespace Vulkan.NET
             public DisplayPlaneAlphaFlagBitsKHR alphaMode;
             public Extent2D imageExtent;
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceDisplayPropertiesKHR(System.IntPtr physicalDevice, ref UInt32 pPropertyCount, ref DisplayPropertiesKHR pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetPhysicalDeviceDisplayPlanePropertiesKHR(System.IntPtr physicalDevice, ref UInt32 pPropertyCount, ref DisplayPlanePropertiesKHR pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetDisplayPlaneSupportedDisplaysKHR(System.IntPtr physicalDevice, uint planeIndex, ref UInt32 pDisplayCount, ref UInt32 pDisplays);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetDisplayModePropertiesKHR(System.IntPtr physicalDevice, uint display, ref UInt32 pPropertyCount, ref DisplayModePropertiesKHR pProperties);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDisplayModeKHR(System.IntPtr physicalDevice, uint display, ref DisplayModeCreateInfoKHR pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pMode);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkGetDisplayPlaneCapabilitiesKHR(System.IntPtr physicalDevice, uint mode, uint planeIndex, ref DisplayPlaneCapabilitiesKHR pCapabilities);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDisplayPlaneSurfaceKHR(System.IntPtr instance, ref DisplaySurfaceCreateInfoKHR pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pSurface);
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DisplayPresentInfoKHR
         {
             public StructureType sType;
@@ -2308,6 +2973,10 @@ namespace Vulkan.NET
             public Rect2D dstRect;
             public uint persistent;
         }
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateSharedSwapchainsKHR(System.IntPtr device, uint swapchainCount, ref SwapchainCreateInfoKHR pCreateInfos, ref AllocationCallbacks pAllocator, ref UInt32 pSwapchains);
+
         public enum DebugReportObjectTypeEXT
         {
             TypeUnknownEXT = 0,
@@ -2340,11 +3009,13 @@ namespace Vulkan.NET
             TypeSwapchainKHR_EXT = 27,
             TypeEXT = 28,
         }
+
         public enum DebugReportErrorEXT
         {
             ErrorNoneEXT = 0,
             ErrorCallbackRefEXT = 1,
         }
+
         public enum DebugReportFlagBitsEXT
         {
             InformationBitEXT = 1,
@@ -2353,7 +3024,11 @@ namespace Vulkan.NET
             ErrorBitEXT = 8,
             BitEXT = 16,
         }
-        [System.Runtime.InteropServices.StructLayout(System.Runtime.InterupServices.LayoutKind.Sequential)]
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate uint PFN_vkDebugReportCallbackEXT(uint flags, DebugReportObjectTypeEXT objectType, uint @object, System.IntPtr location, int messageCode, string pLayerPrefix, string pMessage, System.IntPtr pUserData);
+
+        [System.Runtime.InteropServices.StructLayout(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public struct DebugReportCallbackCreateInfoEXT
         {
             public StructureType sType;
@@ -2362,5 +3037,15 @@ namespace Vulkan.NET
             public PFN_vkDebugReportCallbackEXT pfnCallback;
             public System.IntPtr pUserData;
         }
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate Result PFN_vkCreateDebugReportCallbackEXT(System.IntPtr instance, ref DebugReportCallbackCreateInfoEXT pCreateInfo, ref AllocationCallbacks pAllocator, ref UInt32 pCallback);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDestroyDebugReportCallbackEXT(System.IntPtr instance, uint callback, ref AllocationCallbacks pAllocator);
+
+        [System.Runtime.InteropServices.UnmanagedFunctionPointerAttribute((System.Runtime.InteropServices.CallingConvention)3)]
+        public delegate void PFN_vkDebugReportMessageEXT(System.IntPtr instance, uint flags, DebugReportObjectTypeEXT objectType, uint @object, System.IntPtr location, int messageCode, string pLayerPrefix, string pMessage);
+
     }
 }

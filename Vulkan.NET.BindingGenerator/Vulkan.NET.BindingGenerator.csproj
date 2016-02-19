@@ -46,7 +46,6 @@
     <Compile Include="EnumTranslator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <None Include="test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

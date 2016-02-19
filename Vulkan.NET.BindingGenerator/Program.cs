@@ -10,7 +10,7 @@ namespace Vulkan.NET.BindingGenerator
     {
         static void Main(string[] args)
         {
-            System.IO.File.WriteAllText("../../test.cs", Translator.ProcessLibrary(System.IO.Path.GetFullPath("Vulkan.NET.dll")));
+            System.IO.File.WriteAllText("../../../Vulkan.NET/vulkan_net.cs", Translator.ProcessLibrary(System.IO.Path.GetFullPath("Vulkan.NET.dll")));
         }
     }
 }
